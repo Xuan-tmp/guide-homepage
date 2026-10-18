@@ -35,4 +35,40 @@ export const projects = [
       repo: "https://github.com/Xuan-tmp/X-MapEditor",
     },
   },
+  {
+    id: "Rad-land",
+    featured: false,
+    status: "active",
+    name: {
+      zh: "【浮光之地】拉德兰 相关文本",
+      en: "Rad land related text",
+    },
+    description: {
+      zh: "一个文本站，整理了我自己的原创世界观设定。",
+      en: "A text site that organizes my own original worldview settings.",
+    },
+    tech: ["cloudflare-workers","markdown"],
+    links: {
+      demo: "",
+      repo: "https://github.com/Xuan-tmp/Rad-land",
+    },
+  },
+  {
+    id: "Shi-Ju",
+    featured: false,
+    status: "active",
+    name: {
+      zh: "拾句 英语训练器",
+      en: "Shiju English Trainer",
+    },
+    description: {
+      zh: "学英语的。",
+      en: "Learn English.",
+    },
+    tech: ["Electron"],
+    links: {
+      demo: "",
+      repo: "https://github.com/Xuan-tmp/Shi_Ju-English_trainer",
+    },
+  },
 ];
